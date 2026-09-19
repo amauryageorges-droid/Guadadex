@@ -30,9 +30,9 @@ jobs:
 
       - name: Extraire le projet
         run: |
-           unzip -q GuadeloupeDex_V2_Corrige2.zip -d extracted
+          unzip -q GuadeloupeDex_V2_Corrige2.zip -d extracted
 
-      - name: Construire l'APK
+      - name: Trouver et construire le projet
         run: |
           PROJECT_DIR=$(dirname "$(find extracted -name settings.gradle.kts -print -quit)")
           echo "Projet trouve dans: $PROJECT_DIR"
