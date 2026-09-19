@@ -30,7 +30,7 @@ jobs:
 
       - name: Extraire le projet
         run: |
-          unzip -q GuadeloupeDex_V2_Android.zip -d extracted
+           unzip -q GuadeloupeDex_V2_Corrige.zip -d extracted
 
       - name: Construire l'APK
         run: |
