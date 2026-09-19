@@ -30,7 +30,7 @@ jobs:
 
       - name: Extraire le projet
         run: |
-          unzip -q GuadeloupeDex_V2_Corrige3.zip -d extracted
+          unzip -q GuadeloupeDex_V2_Corrige4.zip -d extracted
 
       - name: Trouver et construire le projet
         run: |
