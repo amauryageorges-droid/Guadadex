@@ -30,7 +30,7 @@ jobs:
 
       - name: Extraire le projet
         run: |
-          unzip -q Guadadex_V4_Corrige5.zip -d extracted
+          unzip -q Guadadex_V5_Pokedex_Refonte.zip -d extracted
 
       - name: Trouver et construire le projet
         run: |
@@ -42,5 +42,5 @@ jobs:
       - name: Recuperer l'APK
         uses: actions/upload-artifact@v4
         with:
-          name: Guadadex-V4-APK
+          name: Guadadex-V5-APK
           path: extracted/**/app/build/outputs/apk/debug/app-debug.apk
